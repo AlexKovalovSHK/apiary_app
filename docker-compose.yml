@@ -1,0 +1,10 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: pwa-app:latest
+    container_name: apiary_paseka_pwa
+    ports:
+      - "8087:80"
+    restart: unless-stopped
