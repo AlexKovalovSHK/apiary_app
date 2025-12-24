@@ -6,5 +6,5 @@ services:
     image: apiary_paseka_pwa:latest
     container_name: apiary_paseka_pwa
     ports:
-      - "8087:80"
+      - "8088:80"
     restart: unless-stopped
